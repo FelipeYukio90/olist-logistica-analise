@@ -23,7 +23,7 @@ Durante a auditoria da base, identifiquei uma inconsistência: 547 pedidos possu
 ### 📈 Prazos vs. Satisfação por Estado
 > *O gráfico abaixo demonstra a correlação entre os dias de adiantamento da entrega e a média de avaliação dos clientes em cada UF.*
 
-![Gráfico Scatter Olist]<img width="576" height="433" alt="image" src="https://github.com/user-attachments/assets/e0958ca8-aaa6-4746-8f65-9cb480bb6c44" />
+<img width="576" height="433" alt="image" src="https://github.com/user-attachments/assets/e0958ca8-aaa6-4746-8f65-9cb480bb6c44" />
 
 
 -
