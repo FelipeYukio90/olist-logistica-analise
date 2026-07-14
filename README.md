@@ -20,8 +20,11 @@ A satisfação no e-commerce é estritamente sobre **gestão de expectativa, e n
 ### 🛠️ Destaque Técnico (Qualidade de Dados)
 Durante a auditoria da base, identifiquei uma inconsistência: 547 pedidos possuíam avaliações duplicadas devido a rotinas de entregas fracionadas. Para proteger a qualidade da análise, tratei esse ruído criando a CTE `reviews_unicas`, que consolidou as notas via média aritmética antes dos cruzamentos principais, garantindo a total robustez dos achados.
 
-### 📈 Prazos vs. Satisfação por Estado
-> *O gráfico abaixo demonstra a correlação entre os dias de adiantamento da entrega e a média de avaliação dos clientes em cada UF.*
+### 📈 Prazos vs. Satisfação
+
+    O gráfico de dispersão abaixo mapeia a média de dias de adiantamento da entrega (eixo X) contra a média de avaliação dos clientes (eixo Y). O tamanho das bolhas representa o volume de pedidos em cada amostra analisada.
+
+Observação técnica: A dispersão dos dados não indica uma correlação linear simples. Existe uma alta densidade de pedidos com satisfação elevada (notas acima de 4.1) concentrada na faixa de 10 a 13 dias de adiantamento, sugerindo que a satisfação do cliente atinge um platô e não escala indefinidamente com o aumento dos dias de antecedência na entrega.
 
 <img width="576" height="433" alt="image" src="https://github.com/user-attachments/assets/e0958ca8-aaa6-4746-8f65-9cb480bb6c44" />
 
