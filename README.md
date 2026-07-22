@@ -87,8 +87,7 @@ tamanho das bolhas no gráfico de dispersão comunica essa diferença de volume.
 
 ## O Dashboard
 
-*(Fase 2 — Power BI. Substitua os caminhos abaixo pelos arquivos de imagem no
-repositório.)*
+
 
 **Visão geral**
 
